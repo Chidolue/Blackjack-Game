@@ -8,7 +8,7 @@ body{
     background-color: green;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    min-height: 100vh;
+    min-height: 100svh;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -49,4 +49,12 @@ button{
 
 p {
     margin-top: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+    main{
+        width: 400px;
+        min-height: 310px;
+        padding-top: 20px;
+    }
 }
